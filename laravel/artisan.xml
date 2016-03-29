@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <Date>2016-03-29</Date>
+  <Beta>False</Beta>
+  <Category>PHP:Laravel:Cli</Category>
+  <Name>Laravel Artisan</Name>
+  <Project>https://github.com/benrowe/</Project>
+  <Changes>
+  </Changes>
+  <Overview>
+    Creates a docker laravel artisan container for executing artisan commands
+  </Overview>
+  <Description>
+    Write your own cli logic though laravel + it's task system
+  </Description>
+  <!--<Registry>https://registry.hub.docker.com/u/limetech/plex/</Registry>-->
+  <GitHub>https://github.com/dylanlindgren/docker-laravel-artisan</GitHub>
+  <Repository>limetech/plex</Repository>
+  <Support>https://github.com/benrowe</Support>
+  <BindTime>true</BindTime>
+  <Privileged>true</Privileged>
+  <Networking>
+    <Mode>host</Mode>
+    <Publish/>
+  </Networking>
+  <Environment/>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/cli</HostDir>
+      <ContainerDir>/www</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <!--<WebUI>http://[IP]:[PORT:32400]/web/index.html</WebUI>-->
+  <Banner></Banner>
+  <Icon>http://d2631fvi2jdnb6.cloudfront.net/docker/limetech/plex.png</Icon>-->
+</Containers>

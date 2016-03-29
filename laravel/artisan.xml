@@ -32,7 +32,7 @@
     </Volume>
     <Volume>
       <HostDir>/mnt/user/</HostDir>
-      <Container>/data/user</Container>
+      <ContainerDir>/data/user</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>

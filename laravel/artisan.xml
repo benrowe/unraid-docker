@@ -13,7 +13,7 @@
   <Description>
     Write your own cli logic though laravel + it's task system
   </Description>
-  <!--<Registry>https://registry.hub.docker.com/u/limetech/plex/</Registry>-->
+  <Registry>https://registry.hub.docker.com/u/dylanlindgren/docker-laravel-artisan</Registry>
   <GitHub>https://github.com/dylanlindgren/docker-laravel-artisan</GitHub>
   <Repository>dylanlingren/docker-laravel-artisan</Repository>
   <Support>https://github.com/benrowe</Support>
@@ -30,8 +30,13 @@
       <ContainerDir>/data/www</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
+    <Volume>
+      <HostDir>/mnt/user/</HostDir>
+      <Container>/data/user</Container>
+      <Mode>rw</Mode>
+    </Volume>
   </Data>
-  <!--<WebUI>http://[IP]:[PORT:32400]/web/index.html</WebUI>-->
+  <!--<WebUI>http://[IP]:[PORT:80]</WebUI>-->
   <Banner></Banner>
   <!--<Icon>http://d2631fvi2jdnb6.cloudfront.net/docker/limetech/plex.png</Icon>-->
 </Containers>

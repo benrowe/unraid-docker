@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <Date>2016-04-10</Date>
+  <Beta>False</Beta>
+  <Category>PHP:Laravel:Data</Category>
+  <Name>Laravel Data</Name>
+  <Project>https://github.com/benrowe/</Project>
+  <Changes>
+  </Changes>
+  <Overview>
+    This is a data-only Docker image
+  </Overview>
+  <Description>
+    This is a data-only Docker image
+  </Description>
+  <Registry>https://hub.docker.com/r/dylanlindgren/docker-laravel-data</Registry>
+  <GitHub>https://github.com/dylanlindgren/docker-laravel-data</GitHub>
+  <Repository>dylanlindgren/docker-laravel-data</Repository>
+  <Support>https://github.com/benrowe</Support>
+  <BindTime>true</BindTime>
+  <Privileged>true</Privileged>
+  <Networking>
+    <Mode>host</Mode>
+    <Publish/>
+  </Networking>
+  <Environment/>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/cli</HostDir>
+      <ContainerDir>/data</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Banner></Banner>
+  <!--<Icon>http://d2631fvi2jdnb6.cloudfront.net/docker/limetech/plex.png</Icon>-->
+</Containers>

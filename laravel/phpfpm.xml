@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
-  <Date>2016-04-10</Date>
+  <Date>2016-04-17</Date>
   <Beta>False</Beta>
-  <Category>PHP:Laravel:Data</Category>
+  <Category>PHP:Laravel</Category>
   <Name>Laravel Data</Name>
   <Project>https://github.com/benrowe/</Project>
   <Changes>
@@ -13,9 +13,9 @@
   <Description>
     This is a data-only Docker image
   </Description>
-  <Registry>https://hub.docker.com/r/dylanlindgren/docker-laravel-data</Registry>
-  <GitHub>https://github.com/dylanlindgren/docker-laravel-data</GitHub>
-  <Repository>dylanlindgren/docker-laravel-data</Repository>
+  <Registry>https://hub.docker.com/r/dylanlindgren/docker-laravel-phpfpm</Registry>
+  <GitHub>https://github.com/dylanlindgren/docker-laravel-phpfpm</GitHub>
+  <Repository>dylanlindgren/docker-laravel-phpfpm</Repository>
   <Support>https://github.com/benrowe</Support>
   <BindTime>true</BindTime>
   <Privileged>true</Privileged>
@@ -25,11 +25,11 @@
   </Networking>
   <Environment/>
   <Data>
-    <Volume>
+    <!--<Volume>
       <HostDir>/mnt/user/appdata/cli</HostDir>
       <ContainerDir>/data</ContainerDir>
       <Mode>rw</Mode>
-    </Volume>
+    </Volume>-->
   </Data>
   <Banner></Banner>
   <!--<Icon>http://d2631fvi2jdnb6.cloudfront.net/docker/limetech/plex.png</Icon>-->

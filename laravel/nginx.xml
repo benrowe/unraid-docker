@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
-  <Date>2016-03-29</Date>
+  <Date>2016-04-17</Date>
   <Beta>False</Beta>
-  <Category>PHP:Laravel:Cli</Category>
+  <Category>PHP:Laravel:Nginx</Category>
   <Name>Laravel Artisan</Name>
   <Project>https://github.com/benrowe/</Project>
   <Changes>
   </Changes>
   <Overview>
-    Creates a docker laravel artisan container for executing artisan commands
+    Creates a docker laravel nginx container for deliverying http requests
   </Overview>
   <Description>
-    Write your own cli logic though laravel + it's task system
+    Creates a docker laravel nginx container for deliverying http requests
   </Description>
-  <Registry>https://registry.hub.docker.com/u/dylanlindgren/docker-laravel-artisan</Registry>
-  <GitHub>https://github.com/dylanlindgren/docker-laravel-artisan</GitHub>
-  <Repository>dylanlindgren/docker-laravel-artisan</Repository>
+  <Registry>https://registry.hub.docker.com/u/dylanlindgren/docker-laravel-nginx</Registry>
+  <GitHub>https://github.com/dylanlindgren/docker-laravel-nginx</GitHub>
+  <Repository>dylanlindgren/docker-laravel-nginx</Repository>
   <Support>https://github.com/benrowe</Support>
   <BindTime>true</BindTime>
   <Privileged>true</Privileged>
@@ -25,7 +25,7 @@
   </Networking>
   <Environment/>
   <Data>
-    <Volume>
+    <!--<Volume>
       <HostDir>/mnt/user/appdata/cli</HostDir>
       <ContainerDir>/data/www</ContainerDir>
       <Mode>rw</Mode>
@@ -34,9 +34,9 @@
       <HostDir>/mnt/user/</HostDir>
       <ContainerDir>/data/user</ContainerDir>
       <Mode>rw</Mode>
-    </Volume>
+    </Volume>-->
   </Data>
-  <!--<WebUI>http://[IP]:[PORT:80]</WebUI>-->
+  <WebUI>http://[IP]:[PORT:80]</WebUI>
   <Banner></Banner>
   <!--<Icon>http://d2631fvi2jdnb6.cloudfront.net/docker/limetech/plex.png</Icon>-->
 </Containers>
